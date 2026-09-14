@@ -5,7 +5,7 @@ a1=paste(args[1],sep="")
 
 a2=paste(a1,".results.txt",sep="")
 
-dat=read.table("psign_v1.dat", header=T, row.names=1)
+dat=read.table("psign_v1.1.dat", header=T, row.names=1)
 
 geneX <- a1
 
